@@ -1,0 +1,80 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.menuCont {
+  display: flex;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  background-color: #fef7e2;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  padding: 2em;
+}
+
+.menuButton {
+  display: flex;
+  background-color: #ffdf7f;
+  color: black;
+  border-radius: 40px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  width: 40px;
+  padding: 1em 3em;
+  color: #732104;
+  white-space: nowrap;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+div nav a img {
+  width: 50px;
+  height: 50px;
+}
+
+.menuButton.shopButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  font-weight: bolder;
+  width: 40%;
+  border-radius: 50px;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #732104;
+  text-align: center;
+}
+
+.product {
+  background-color: #fef7e2;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.product div {
+  display: flex;
+  flex-direction: column;
+}
+
+.product div p {
+  display: flex;
+  justify-content: right;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+.product button {
+  display: inline-block;
+  text-align: center;
+}
